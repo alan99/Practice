@@ -58,7 +58,7 @@ print(c | d)				# 并集:  汇聚所有的key, key相同的情况下，取大的
 
 
 # 常见做法:
-
+print(c.values())
 print(sum(c.values()))			# 继承自字典的.values()方法返回values的列表，再求和
 
 
@@ -74,7 +74,7 @@ print(dict(c))					# 转化成字典
 print(c.items())				# 转化成(元素，计数值)组成的列表
 
 
-# Counter(dict(list_of_pairs))    # 从(元素，计数值)组成的列表转化成Counter
+Counter(dict(list_of_pairs))    # 从(元素，计数值)组成的列表转化成Counter
 
 
 print(c.most_common(2))       	# 最大n(2)个计数的(元素，计数值)组成的列表
