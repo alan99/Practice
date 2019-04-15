@@ -22,7 +22,8 @@ print(x)
 print('user' in dict1)
 print('sex' in dict1)
 
-dict1.setdefault('sex', 'm')
+dict1['sex'] = 'm'
+# dict1.setdefault('sex', 'm')
 print('sex' in dict1)
 print(dict1['sex'])
 

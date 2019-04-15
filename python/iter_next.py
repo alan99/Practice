@@ -1,0 +1,8 @@
+x = iter([1, 2, 3])
+print(x)
+print(next(x))
+print(x)
+print(next(x))
+print(x)
+print(next(x))
+print(x)
